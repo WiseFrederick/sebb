@@ -11,16 +11,18 @@
 
 <div class="container">
     <div class="background"></div>
-    <div class="home-button"></div>
-        <a href="https://sebastiangustar.com/" target="_blank">
-            <img src="home-button.png">
-        </a>
+    <div class="home-icon" onclick="toggleHome()">
+        <img src="home-button.png">
+    </div>
+    <div class="home">
+        <a href="https://sebastiangustar.com/" target="_blank"></a>
+    </div>  
 </div>
 
 <script>
-    function toggleMenu() {
-        console.log("Menu toggled");
-        var menu = document.querySelector('.menu');
+    function toggleHome() {
+        console.log("Home-Button toggled");
+        var menu = document.querySelector('.home-button');
         menu.classList.toggle('active');
     }
 </script>
