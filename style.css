@@ -131,3 +131,18 @@ html, body {
     background: inherit;
     filter: blur(10px);
 }
+.home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+.background-bandlab {
+    background: linear-gradient(to bottom right, rgb(255, 248, 122), #ff5757);
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
