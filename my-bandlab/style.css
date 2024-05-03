@@ -1,0 +1,159 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.menu-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+.line {
+    width: 100%;
+    height: 4px;
+    background-color: #F8F8F8;
+    border-radius: 2px;
+}
+.menu {
+    position: fixed;
+    top: -130px;
+    left: 0;
+    width: 100%;
+    height: 130px;
+    background-color: #121212;
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+}
+.menu.active {
+    top: 0;
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.menu ul li {
+    padding: 20px;
+    text-align: center;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.menu ul li a:hover {
+    color: #bbb;
+}
+.profile {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    z-index: 1;
+}
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.text {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.text h2 {
+    font-size: 24px;
+    margin: 0;
+}
+.text p {
+    font-size: 18px;
+    margin: 5px 0 0;
+}
+.social-buttons {
+    display: flex;
+}
+.discord-button,
+.spotify-button,
+.instagram-button {
+    z-index: 1;
+    position: relative;
+    top: -5px;
+    text-align: center;
+    margin: 0 5px;
+}
+.discord-button img {
+    width: 30px;
+    height: auto;
+}
+.instagram-button img {
+    width: 26px;
+    height: auto;
+}
+.spotify-button img {
+    width: 23px;
+    height: auto;
+}
+.home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+.home-button img {
+    width: 80px;
+    height: auto;
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(image2.png);
+    background-size: cover;
+}
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(10px);
+}
+.background-bandlab {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(122, 222, 255), #ff5757);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
