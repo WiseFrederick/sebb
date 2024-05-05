@@ -163,7 +163,17 @@ html, body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to bottom left, #ff5757, #ffb87a);
+    background: linear-gradient(to bottom left, #ff587a, #ffb87a);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-vs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom left, #57bfff, #7eff7a);
     background-repeat: no-repeat;
     background-size: cover;
 }
