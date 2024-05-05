@@ -177,3 +177,13 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.background-credits {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom left, #6d57ff, #ff7ad5);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
