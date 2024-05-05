@@ -114,19 +114,22 @@ html, body {
 }
 .home-button {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 15px;
+    left: 15px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 20px;
+    align-items: center;
     cursor: pointer;
     z-index: 2;
 }
 .home-button img {
     width: 40px;
     height: auto;
+}
+.home-button-text {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
 }
 .background {
     position: absolute;

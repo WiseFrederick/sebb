@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebast1an</title>
+    <link rel="icon" href="tab-image.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="background"></div>
+    <div class="menu-icon" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="https://sebastiangustar.com/my-bandlab/">My BandLab</a></li>
+            <li><a href="https://sebastiangustar.com/vs-projects">VS Code Projects</a></li>
+        </ul>
+    </nav>
+    <div class="profile">
+        <img src="cat.png" alt="Failed to load image of Seb">
+        <div class="text">
+            <h2>Geb</h2>
+            <p>(Alternitevly Known As Seb!)</p>
+            <p>Just a person making a website</p>
+        </div>
+    </div>
+    <div class="social-buttons">
+        <div class="discord-button">
+            <a href="https://discordapp.com/users/805097105739219025/" target="_blank">
+                <img src="discordlogoW.png" alt="Discord Logo">
+            </a>
+        </div>
+        <div class="instagram-button">
+            <a href="https://www.instagram.com/bruhplaneguy/" target="_blank">
+                <img src="instalogoW.png" alt="Instagram Logo">
+            </a>
+        </div>
+        <div class="spotify-button">
+            <a href="https://open.spotify.com/user/31ykbygagmd5pddqsaoldj3axdvm?si=389221479aed4725" target="_blank">
+                <img src="spotifylogoW.png" alt="Spotify Logo">
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleMenu() {
+        console.log("Menu toggled");
+        var menu = document.querySelector('.menu');
+        menu.classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>
