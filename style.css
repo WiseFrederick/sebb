@@ -156,7 +156,7 @@ html, body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to bottom right, rgb(122, 222, 255), #ff5757);
+    background: linear-gradient(to bottom left, #ff5757, #ffb87a);
     background-repeat: no-repeat;
     background-size: cover;
 }
