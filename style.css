@@ -31,10 +31,10 @@ html, body {
 }
 .menu {
     position: fixed;
-    top: -130px;
+    top: -150px;
     left: 0;
     width: 100%;
-    height: 130px;
+    height: 150px;
     background-color: #121212;
     transition: 0.3s ease-in-out;
     z-index: 1;
