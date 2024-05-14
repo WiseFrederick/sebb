@@ -112,6 +112,37 @@ html, body {
     width: 23px;
     height: auto;
 }
+.container-bandlab {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    overflow: hidden;
+}
+.bandlab-info {
+    text-align: left;
+    padding: 15px;
+    border-radius: 15px;
+    z-index: 1;
+    margin-top: -500px;
+}
+.text-bandlab {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.text-bandlab h2 {
+    font-size: 34px;
+    margin: 0;
+    text-align: center;
+}
+.text-bandlab p {
+    font-size: 18px;
+    margin: 5px 0 0;
+    margin-top: 35px;
+}
 .home-button {
     position: absolute;
     top: 15px;
@@ -124,6 +155,7 @@ html, body {
 .home-button img {
     width: 40px;
     height: auto;
+    display: flex;
 }
 .home-button-text {
     color: #fff;
