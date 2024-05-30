@@ -1,7 +1,7 @@
 const logos = [
     { src: 'VA.jpg', name: 'Virgin Atlantic' },
-    { src: 'logo2.png', name: 'Tesla' },
-    { src: 'logo3.png', name: 'Geb Web' },
+    { src: 'T.jpg', name: 'Tesla' },
+    { src: 'GW.jpg', name: 'Geb Web' },
 ];
 
 let currentLogoIndex = 0;
