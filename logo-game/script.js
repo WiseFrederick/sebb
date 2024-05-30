@@ -4,6 +4,7 @@ const logos = [
     { src: 'GW.jpg', name: 'Geb Web' },
     { src: 'GT.jpg', name: 'Open AI' },
     { src: 'AE.jpg', name: 'Alpha Electrical' },
+    { src: 'BL.jpg', name: 'Bandlab'},
 ];
 
 let currentLogoIndex = 0;
