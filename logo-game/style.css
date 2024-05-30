@@ -40,14 +40,27 @@ body {
     box-sizing: border-box;
     margin-bottom: 10px;
 }
-#submit-guess {
+#submit-guess,
+#skip-logo {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    margin: 5px;
 }
 #result {
     margin-top: 20px;
     font-size: 18px;
+}
+#end-message {
+    font-size: 20px;
+    margin-top: 20px;
+    color: black; /* Change text color to black */
+}
+.final-score {
+    display: block;
+    font-size: 24px; /* Increase the text size */
+    color: green; /* Change score color to green */
+    margin-top: 10px;
 }
 .logo-background {
     position: absolute;
@@ -55,7 +68,7 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url(image3.png);
+    background-image: url('image3.png');
     background-size: cover;
     z-index: 1;
 }
