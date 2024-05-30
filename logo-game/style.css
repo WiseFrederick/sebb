@@ -22,6 +22,11 @@ body {
     position: relative;
     z-index: 10;
 }
+#score-container {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
 .logo-container {
     margin: 20px 0;
 }

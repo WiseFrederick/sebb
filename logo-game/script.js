@@ -7,11 +7,17 @@ const logos = [
 ];
 
 let currentLogoIndex = 0;
+let score = 0;
 
 function loadLogo() {
     const logoElement = document.getElementById('logo');
     logoElement.src = logos[currentLogoIndex].src;
     logoElement.alt = `logo ${currentLogoIndex + 1}`;
+}
+
+function updateScore() {
+    const scoreElement = document.getElementById('score');
+    scoreElement.textContent = score;
 }
 
 function checkGuess() {
@@ -21,6 +27,8 @@ function checkGuess() {
     if (userGuess === logos[currentLogoIndex].name.toLowerCase()) {
         resultElement.textContent = 'Correct!';
         resultElement.style.color = 'green';
+        score += 1;
+        updateScore();
         currentLogoIndex = (currentLogoIndex + 1) % logos.length;
         loadLogo();
     } else {
@@ -33,4 +41,7 @@ function checkGuess() {
 
 document.getElementById('submit-guess').addEventListener('click', checkGuess);
 
-window.onload = loadLogo;
+window.onload = () => {
+    loadLogo();
+    updateScore();
+};
