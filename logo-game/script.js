@@ -5,6 +5,7 @@ const logos = [
     { src: 'GT.jpg', name: 'Open AI' },
     { src: 'AE.jpg', name: 'Alpha Electrical' },
     { src: 'BL.jpg', name: 'Bandlab' },
+    { src: 'IW.jpg', name: 'Isle Of Wight' },
 ];
 
 let currentLogoIndex = 0;
@@ -23,7 +24,7 @@ function updateScore() {
 
 function showEndMessage() {
     const endMessageElement = document.getElementById('end-message');
-    endMessageElement.innerHTML = `Well done! You got to the end of the game.<br><span class="final-score">Score: ${score}/${logos.length}</span>`;
+    endMessageElement.innerHTML = `Well done! You got to the end of the game with a score of... <br><span class="final-score">Score: ${score}/${logos.length}</span>`;
     endMessageElement.style.display = 'block';
 }
 
