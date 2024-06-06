@@ -2,7 +2,7 @@ const logos = [
     { src: 'VA.jpg', name: 'Virgin Atlantic' },
     { src: 'T.jpg', name: 'Tesla' },
     { src: 'GW.jpg', name: 'Geb Web' },
-    { src: 'GT.jpg', name: 'Open AI' },
+    { src: 'GT.jpg', name: 'OpenAI' },
     { src: 'AE.jpg', name: 'Alpha Electrical' },
     { src: 'BL.jpg', name: 'Bandlab' },
     { src: 'IW.jpg', name: 'Isle Of Wight' },
